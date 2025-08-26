@@ -26,5 +26,17 @@ A full-stack job portal that allows students and recruiters to register, login, 
 ```bash
 git clone https://github.com/your-username/job-portal.git
 cd job-portal
+
+# Install backend dependencies
+cd backend
 npm install
-npm start
+
+# Start backend server
+npm run dev
+
+# Open a new terminal and install frontend dependencies
+cd ../frontend
+npm install
+
+# Start frontend
+npm run dev
